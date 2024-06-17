@@ -1,5 +1,5 @@
 Examples for API calls:
-**User registration**
+**User registration**\n
 curl -X POST -H "Content-type: application/json" -d '{
         "username": "user_two",
         "password1": "supersecretpassword123",
@@ -10,11 +10,11 @@ curl -X POST -H "Content-type: application/json" -d '{
 curl -XPOST -H "Content-type: application/json" -d '{
       "username": "user_two",
       "password": "supersecretpassword123"
-  }' 'http://localhost:8000/api/auth/login/' | jq
+  }' 'http://localhost:8080/api/auth/login/' | jq
 
 **Logout**
 curl -XPOST -H 'Authorization: Token' \
-   -H "Content-type: application/json" 'http://localhost:8000/api/auth/logout/' | jq
+   -H "Content-type: application/json" 'http://localhost:8080/api/auth/logout/' | jq
 
 
 **TODOs**
