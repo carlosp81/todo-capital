@@ -45,6 +45,7 @@ DJANGO_APPS = [
 PROJECT_APPS = [
     "p_apps",
     "p_apps.a_auth",
+    "p_apps.a_todo",
 ]
 
 THIRD_PARTY_APPS = [
